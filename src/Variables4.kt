@@ -1,10 +1,10 @@
-val name4: String = "Nate"
-var greeting: String = "hello"
+private val name: String = "Nate"
+private var greeting = null
 fun main() {
     println(greeting)
-    println(name4)
+    println(name)
 
-    greeting = "hi"
     println(greeting)
-    println(name4)
+    println(name)
+    greeting = null
 }
