@@ -12,4 +12,8 @@ will keep every chapter in separate file.
  directory with the right button on the mouse 
  and choose "Mark Directory as Source root".
  After that you will be able to run every example. 
+ There only one difference between tutorial and this 
+ examples. I am using `private` modifier in order to 
+ have separate scope for every file. There are collisions
+ with variables names otherwise.  
  
